@@ -10,6 +10,7 @@
 我们使用的签名算法是 [HMAC-SHA1](https://en.wikipedia.org/wiki/Hash-based_message_authentication_code)，key 使用的是美洽 App 的 `Secret-Key`，请到工作台获取你的 `Secret-Key`。**Warning**，请不要将 `Secret-Key` 暴露给任何人。
 
 下图是获取 `Secret-Key` 截图：
+![获取 Secret-Key 截图](https://s3.cn-north-1.amazonaws.com.cn/pics.meiqia.bucket/038ccdc55dafe225)
 
 开发者收到美洽的推送数据后，请获取头信息的 `Authorization`，其中是美洽推送数据的签名。
 
