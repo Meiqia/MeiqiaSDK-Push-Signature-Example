@@ -27,6 +27,6 @@ class MeiqiaToolsSigner {
         } catch (Exception e) {
             throw new SignatureException("Failed to generate HMAC : " + e.getMessage());
         }
-        return "meiqia:" + result;
+        return "meiqia_sign:" + result;
     }
 }
