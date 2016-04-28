@@ -1,5 +1,6 @@
-// need Apache Commons Codec
-// https://commons.apache.org/proper/commons-codec/download_codec.cgi
+// 如果是 String MVC 框架的话，
+// 这样写 public HttpResult push(@RequestHeader("authorization")String authorization, @RequestBody String raw_body)
+// 就可以同时拿到 authorization 和  raw_body 了
 
 import java.security.SignatureException;
 import javax.crypto.Mac;
