@@ -2,7 +2,7 @@
 // PHP 5 >= 5.1.2
 // raw_data is http_get_request_body() that get request body as string
 // Example:
-// $body = http_get_request_body()
+// $body = http_get_request_body()  「如果 http_get_request_body() 不能使用，可以用 $body = @file_get_contents('php://input')」
 // $dt = DTSigner($body, $secrect_key)
 // $headers = apache_request_headers()
 // if($dt->sign() != $headers['Authorization']){
