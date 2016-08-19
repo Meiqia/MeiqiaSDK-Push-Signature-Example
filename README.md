@@ -17,4 +17,4 @@
 
 
 #Thanks
-感谢 @yangwenmai 提供了 go 语言版的代码样例。
+感谢 [@yangwenmai](https://github.com/yangwenmai) 提供了 go 语言版的代码样例。
