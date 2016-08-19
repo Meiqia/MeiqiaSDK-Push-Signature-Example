@@ -16,7 +16,7 @@ func MSigner(message, secret string) string {
 	h := hmac.New(sha1.New, key)
 	h.Write([]byte(message))
 
-	r := fmt.Sprintf("meiqia_sign::%v", base64.URLEncoding.EncodeToString([]byte(hex.EncodeToString(h.Sum(nil)))))
+	r := fmt.Sprintf("meiqia_sign:%v", base64.URLEncoding.EncodeToString([]byte(hex.EncodeToString(h.Sum(nil)))))
 	return r
 }
 
