@@ -1,0 +1,26 @@
+{
+	"key": "$2a$12$skg8Mk3UJ3ylnmciryxCQ.IyjKTqi2ujRYwH0ak/BMXYiFBacZbx6",
+	"maps": 
+		[
+			{
+				"text": "美洽，在线客服软件的漂亮之选",
+				"sign": "meiqia_sign:YTgyMmFkMDY5OWJjYzI1ODRkNjBhNzAyMTdlY2M4YjU2NDNiYjhkZA=="
+			},
+			{
+				"text": "NOTICE: 美洽，在线客服软件的漂亮之选",
+				"sign": "meiqia_sign:OGU4NGJhYTZlZGU4NDJkNmJjMzg0OTY1ZTkyMDk0ODQ3MTVmMjBmNg=="
+			},
+			{
+				"text": "👏 美洽，在线客服软件的漂亮之选 👏",
+				"sign": "meiqia_sign:NzgwYzM4ZGUwNGNmNWM3NmQ3N2NkOTJkZGEwYzg0ZjkxMTY0YzU3OQ=="
+			},
+			{
+				"text": "NOTICE: 👏 美洽，在线客服软件的漂亮之选 👏",
+				"sign": "meiqia_sign:ZmM1YjE2MmFhOTJjNWE0NWNkMjAyZDY2YWNmZWRhOGVkY2QxMTA0ZQ=="
+			},
+			{
+				"text": "{\"clientId\":\"12vc86d41d1611e69e6f029346effd31\",\"content\":\"test\",\"contentType\":\"text\",\"customizedData\":\"{\"name\":\"#4\",\"avatar\":\"https://app.meiqia.com/api/static/client-avatar/11-01.png\"}\",\"deviceOS\":\"Android\",\"deviceToken\":\"d2433d6ad2861515e24316ddcbdg05eea23d\",\"fromName\":\"美洽\",\"messageId\":\"111\",\"messageTime\":\"2016-01-01T00:00:00.622580\"}",
+				"sign": "meiqia_sign:NDkwZjJjODgzYWVhYTI1ZGRjMmVjYTk0Y2I1MTQwMDBjODVjZjkzNQ=="
+			}
+		]
+}
