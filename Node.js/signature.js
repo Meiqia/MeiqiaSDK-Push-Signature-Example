@@ -19,15 +19,15 @@
 // });
 // 
 // Example:
-// if(DTsiner(req.rawBody) != req.getHeaders('Authorization')){
+// if(DTSigner(req.rawBody, key) != req.getHeaders('Authorization')){
 //
 // }
-var crypto = require('crypto')
+var crypto = require('crypto');
 
-function DTSigner(raw_body, key){
-	var hash_str = crypto.createHmac('sha1', key).update(raw_body).digest('hex');
-	var sign_str = new Buffer(hash_str).toString('base64')
-	.replace(/\+/g, '-')
-    .replace(/\//g, '_');
+var DTSigner = function(raw_body, key){
+	var hash_str = crypto.createHmac('sha1', key).update(raw_body, 'utf8').digest('hex');
+	var sign_str = new Buffer(hash_str).toString('base64');
 	return 'meiqia_sign:' + sign_str;
 }
+
+module.exports = DTSigner;

@@ -1,0 +1,16 @@
+{
+  "name": "MeiqiaSDK-Push-Signature-Example-Nodejs",
+  "author": "huhuanming",
+  "keywords": [
+    "node.js",
+    "MeiqiaSDK-Push-Signature-Example"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
