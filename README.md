@@ -2,7 +2,7 @@
 美洽 SDK 3.0 推送的数据结构签名算法，多语言示例。
 
 
-该项目是 `美洽 SDK 3.0` 推送的数据结构签名的算法，具体推送的数据结构请移步 [美洽 SDK 推送说明](https://github.com/Meiqia/MeiqiaSDK-iOS#7-%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81)。
+该项目是 `美洽 SDK 3.0` 推送的数据结构签名的算法，具体推送的数据结构请移步 [美洽 SDK 推送说明](https://app-s3-cdn.b0.upaiyun.com/pics.meiqia.bucket/images/9e5ef170-79a9-4765-80ae-430fa9b834f1.png)。
 
 开发者收到美洽的推送数据后，开发者可以选择进行 `签名验证`。
 
