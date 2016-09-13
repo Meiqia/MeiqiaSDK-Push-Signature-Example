@@ -1,6 +1,6 @@
 // 参考文档1：https://en.wikipedia.org/wiki/Hash-based_message_authentication_code
 // 参考文档2：http://www.jokecamp.com/blog/examples-of-creating-base64-hashes-using-hmac-sha256-in-different-languages/#go
-package main
+package meiqia
 
 import (
 	"crypto/hmac"
@@ -18,8 +18,4 @@ func MSigner(message, secret string) string {
 
 	r := fmt.Sprintf("meiqia_sign:%v", base64.URLEncoding.EncodeToString([]byte(hex.EncodeToString(h.Sum(nil)))))
 	return r
-}
-
-func main() {
-	fmt.Println(MSigner("Message", "secret"))
 }
