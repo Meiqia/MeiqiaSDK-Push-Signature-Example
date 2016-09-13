@@ -13,7 +13,7 @@ class MeiqiaToolsSigner {
     private static final String HMAC_SHA1_ALGORITHM = "HmacSHA1";
     private String key;
 
-    public MeiqiaToolsSigner(String raw_body, String key){
+    public MeiqiaToolsSigner(String key){
         this.key = key;
     }
 
