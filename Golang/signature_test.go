@@ -29,7 +29,7 @@ func TestMSigner(t *testing.T) {
     	expected := _map.Sign
     	actual := MSigner(_map.Text, sample_json.Key)
     	if actual != expected {
-			t.Error("text: %s, sign: %s", _map.Text, _map.Sign)
+			t.Error(_map.Text, _map.Sign)
 		}
     }
 }
