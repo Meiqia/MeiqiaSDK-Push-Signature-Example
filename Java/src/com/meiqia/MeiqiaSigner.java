@@ -1,19 +1,16 @@
-// org.apache.commons.codec.binary.Base64.encodeBase64String 需要导入 commons-codec 相关 jar http://commons.apache.org/proper/commons-codec/
-// Maven 的根据后面这个链接添加 http://mvnrepository.com/artifact/commons-codec/commons-codec/1.9
+package com.meiqia;
 
-// 如果是 String MVC 框架的话，
-// 这样写 public HttpResult push(@RequestHeader("authorization")String authorization, @RequestBody String raw_body)
-// 就可以同时拿到 authorization 和  raw_body 了
 
-import java.security.SignatureException;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
+import java.security.SignatureException;
 
-class MeiqiaToolsSigner {
+
+class MeiqiaSigner {
     private static final String HMAC_SHA1_ALGORITHM = "HmacSHA1";
     private String key;
 
-    public MeiqiaToolsSigner(String key){
+    public MeiqiaSigner(String key){
         this.key = key;
     }
 
