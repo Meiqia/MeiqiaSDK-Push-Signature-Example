@@ -62,6 +62,8 @@ curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" 
 curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" '你的回调 api 的地址' -d '{"clientId":"1jk23u3i434jkdjkf","content":"test","contentType":"text","customizedData":{"name":"#4","avatar":"https://app.meiqia.com/api/static/client-avatar/11-01.png"},"deviceOS":"Android","deviceToken":"d2433d6ad2861515e24316ddcbdg05eea23d","fromName":"美洽","messageId":"111","messageTime":"2016-01-01T00:00:00.622580"}'
 ```
 
+若开发者的回调接口能收到测试消息，但仍收不到美洽的离线推送消息，请到 app.meiqia.com 工作台找到要推送的那条对话，查看该顾客是否「已离线」，只有顾客「已离线」，美洽的服务端才会推送离线消息给开发者的回调接口。
+
 ## 目录说明
 
 ```html
