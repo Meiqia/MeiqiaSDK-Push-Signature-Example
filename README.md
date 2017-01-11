@@ -48,6 +48,20 @@ meiqia_sign:YTgyMmFkMDY5OWJjYzI1ODRkNjBhNzAyMTdlY2M4YjU2NDNiYjhkZA==
 
 将两个 sign 进行比对，如果一样，就说明该请求合法，可以进行其他操作，如果不对，就舍弃。
 
+### 自测
+
+开发者的回调接口开发完成后，请先自己发送一条消息，测试一下回调接口是否能正确接收数据，如发送：
+
+```
+curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" '你的回调 api 的地址' -d '{"content": "Hi, stranger!"}'
+```
+
+或发送 mock-message:
+
+```
+curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" '你的回调 api 的地址' -d '{"clientId":"1jk23u3i434jkdjkf","content":"test","contentType":"text","customizedData":{"name":"#4","avatar":"https://app.meiqia.com/api/static/client-avatar/11-01.png"},"deviceOS":"Android","deviceToken":"d2433d6ad2861515e24316ddcbdg05eea23d","fromName":"美洽","messageId":"111","messageTime":"2016-01-01T00:00:00.622580"}'
+```
+
 ## 目录说明
 
 ```html
